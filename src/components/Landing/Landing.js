@@ -12,6 +12,7 @@ class Landing extends Component {
     }
   }
 
+// have elements translate in once component mounts
   componentDidMount(){
     setTimeout(
       () => {

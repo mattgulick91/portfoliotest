@@ -1,16 +1,8 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 
 class Projects extends Component {
-  constructor(){
-    super()
-    this.state = {
-
-    }
-  }
 
   render(){
-    let takeHeartPic = '../../images/takeHeartPictures.png'
     return(
       <div id="projects">
         <div className="projects-container">

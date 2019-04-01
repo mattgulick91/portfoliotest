@@ -13,6 +13,7 @@ class Navbar extends Component {
     this.handleLeave = this.handleLeave.bind(this)
   }
 
+// Open/close nav menu when icon is clicked
   handleClick(event) {
     this.state.isVisible ?
     this.setState({
@@ -27,6 +28,7 @@ class Navbar extends Component {
     })
   }
 
+// Close nav menu when mouse leaves menu
   handleLeave(event){
     this.setState({
       navImg: require('../../images/hamburger-menu.png'),
@@ -38,7 +40,6 @@ class Navbar extends Component {
   render(){
     return(
       <div className="collapsible-nav">
-
         <div className="nav-img-container">
           <input type="checkbox" id="nav" />
           <label for="nav">

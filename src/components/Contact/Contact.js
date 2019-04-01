@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 
 class Contact extends Component {
   constructor(){
@@ -11,12 +10,14 @@ class Contact extends Component {
     this.handleLeave = this.handleLeave.bind(this)
   }
 
+// Scale up icon and hr when entering icon
   handleEnter(event){
     this.setState({
       scalePar: 1
     })
   }
 
+  // Scale down icon and hr when entering icon
   handleLeave(event){
     this.setState({
       scalePar: 0
@@ -25,6 +26,7 @@ class Contact extends Component {
 
 
   render(){
+    // Set the hr style
     let hrSty = {width: '80%', transition: 'all .2s ease-in-out', transform: `scaleX(${this.state.scalePar})`}
     return(
       <div className="contact-container" id="contact">
