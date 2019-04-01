@@ -71,7 +71,7 @@ class Landing extends Component {
         <div className="header-title">
           <div className="header-top">
             <h4 style={oneSty}>My name is &nbsp;</h4><br/><br />
-            <h1 style={twoSty}>Testing...</h1><br/>
+            <h1 style={twoSty}>Matthew Gulick...</h1><br/>
           </div>
           <div className="header-bottom">
             <h3 style={threeSty}>...and I am a </h3>
