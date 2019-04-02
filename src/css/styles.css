@@ -105,6 +105,21 @@ input#nav {
   display: none;
 }
 
+.git-wrapper {
+  background-color: #12151B;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 15%;
+  filter: opacity(.7);
+}
+
+.git-wrapper img {
+  height: 3em;
+  width: 3em;
+  padding: .5em 1em .5em .5em;
+}
+
 /* Header */
 .header-title {
   position: relative;
@@ -114,7 +129,6 @@ input#nav {
   height: 30em;
   margin: 0;
   padding-bottom: 2em;
-  /* box-shadow: inset 0 0 10px #000000; */
 }
 
 .header-title::before {
@@ -477,6 +491,16 @@ input#nav {
     font-size: 1.7em;
   }
 
+  .git-wrapper {
+    top: 7%;
+  }
+
+  .git-wrapper img {
+    height: 3.5em;
+    width: 3.5em;
+    padding: .5em 1em .5em .5em;
+  }
+
   .header-title {
     height: 35em;
     padding-bottom: 0;
@@ -561,6 +585,16 @@ input#nav {
     letter-spacing: .3em;
     width: 40%;
     font-size: 1.7em;
+  }
+
+  .git-wrapper {
+    top: 7%;
+  }
+
+  .git-wrapper img {
+    height: 3em;
+    width: 3em;
+    padding: .5em 1em .5em .5em;
   }
 
   .header-title {
@@ -656,6 +690,16 @@ input#nav {
     font-size: 1.7em;
   }
 
+  .git-wrapper {
+    top: 10%;
+  }
+
+  .git-wrapper img {
+    height: 3em;
+    width: 3em;
+    padding: .5em;
+  }
+
   .header-title {
     height: 30em;
     padding-bottom: 0;
@@ -746,6 +790,16 @@ input#nav {
     letter-spacing: .2em;
     width: 60%;
     font-size: 1.5em;
+  }
+
+  .git-wrapper {
+    top: 5%;
+  }
+
+  .git-wrapper img {
+    height: 2em;
+    width: 2em;
+    padding: .5em;
   }
 
   .header-title {
